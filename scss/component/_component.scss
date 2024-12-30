@@ -1,0 +1,147 @@
+/* Button */
+.button {
+    padding: 10px 35px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    cursor:pointer;
+    border:none;
+    background-size: 250%;
+    transition: .3s ease-in-out;
+}
+.primary-button-fill {
+    transition: 0.3s ease-in-out;
+    color:#fff;
+    background: #222;
+    &:hover {
+        color:#fff;
+        background: #222;        
+        background-size: 250%;
+        opacity: .8;
+    }
+}
+.primary-outline-fill {
+    border:1px solid #0d233a;    
+}
+
+/* Button */
+
+/* Section Title */
+.section-heading {
+    display:flex;
+    align-items:center;
+    margin-bottom:60px;
+    justify-content:space-between;
+    .heading {
+        font-size:45px;
+        letter-spacing: -0.3px;
+        font-weight: 600;
+    }
+    a.all {
+        color:#fff;
+        font-weight:700;
+        transition: 0.3s ease-in-out;
+        font-size: 18px;
+        &:hover {
+            color:#0d233a;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
+/* Section Title */
+.section-heading-center { 
+display:block;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+p {
+    font-size: 20px;
+    padding: 0;
+    opacity: .85;
+    line-height: 1.55;
+    width: 70%;
+    margin: auto;
+}
+}
+
+
+
+/* Card */
+.p-card {
+background:#fff;
+border-radius:10px;
+transition: 0.3s ease-in-out;
+.p-card__media {
+    a {
+        color: #0d233a;
+    }
+}
+.p-card__description {
+    padding: 25px 30px;
+    .p-card__title {
+        font-size: 20px;
+        padding-bottom: 15px;
+        line-height: 1.40;
+        transition: 0.3s ease-in-out;
+        a {
+            color: inherit;
+            font-weight: 500;
+            line-height: 1.12;
+            transition: 0.3s ease-in-out;
+        }
+
+        &:hover{
+            transition: 0.3s ease-in-out;
+            a {
+                color:#b6a466;
+            }
+        }
+    }
+    
+}
+}
+
+.carousel-navigation {
+position:relative;
+.owl-carousel {
+    .owl-nav {
+        button {
+            font-size: 20px;
+            color: #fff;
+            background: #b6a466;
+            height: 60px;
+            width: 60px;
+            border-radius: 100%;
+            text-align: center;
+            line-height: 40px;
+            transition: 0.3s ease-in-out;
+            &:hover {
+                opacity:.74;
+                transition: 0.3s ease-in-out;
+            }
+        }
+        button.owl-prev {
+            position: absolute;
+            top: 45%;
+            left: -30px;
+        }
+        button.owl-next {
+            position: absolute;
+            top: 45%;
+            right: -30px;
+        }
+        button.disabled {
+            opacity: .2;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
+}
+
+.load-more {
+margin-top:30px;
+}

@@ -1,0 +1,38 @@
+
+/* font-face */
+@font-face {
+    font-family: "Nexa";
+    src: url("../assets/fonts/NexaLight.woff2") format("woff2"), url("../assets/fonts/NexaLight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Nexa";
+    src: url("../fonts/NexaBold.woff2") format("woff2"), url("../fonts/NexaBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Nexa";
+    src: url("../fonts/Nexa-Regular.woff2") format("woff2"), url("../fonts/Nexa-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Nexa";
+    src: url("../fonts/Nexa-Thin.woff2") format("woff2"), url("../fonts/Nexa-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Nexa";
+    src: url("../fonts/Nexa-Black.woff2") format("woff2"), url("../fonts/Nexa-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* font-face */

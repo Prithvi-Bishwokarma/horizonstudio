@@ -1,0 +1,26 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import '../css/all.min.css';
+
+
+// base
+@import 'base/reset';
+@import 'base/typography';
+
+// utils
+@import 'utils/function';
+@import 'utils/variable';
+@import 'utils/mixin';
+
+// layout
+@import 'layout/header';
+@import 'layout/footer';
+
+// page
+@import 'page/home';
+@import 'page/responsive';
+
+// components
+@import 'component/component';
+
+// pages

@@ -1,0 +1,191 @@
+/* Global Styles */
+body {
+    font-size: 100%;
+    font-family: "Nexa", sans-serif;
+    font-size: 16px;
+    background: #f2efe6;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  ul {
+    margin-bottom: 0 !important;
+  }
+  
+  a:hover,
+  a,
+  a:active {
+    text-decoration: none;
+    outline: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  p {
+    font-weight: 200;
+    margin: 0;
+    line-height: 30px;
+  }
+
+  span {
+    font-weight: 200;
+  }
+
+  .contact input.button {
+    font-family: "Nexa", sans-serif !important;
+  }
+  
+  h1, .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0;
+  }
+  
+  .container-full {
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  
+  .section-sm {
+    padding: 40px 0;
+  }
+  
+  .section-md {
+    padding: 70px 0;
+  }
+  
+  .section-lg {
+    padding: 100px 0;
+  }
+
+  .section-pd-sm {
+    padding: 10px;
+  }
+
+  .section-pd-md {
+    padding: 20px;
+  }
+
+  .section-pd-lg {
+    padding: 40px;
+  }
+  
+  .section-pd-left-sm {
+    padding-left: 10px;
+  }
+
+  .section-pd-right-sm {
+    padding-right: 10px;
+  }
+
+  .section-pd-top-sm {
+    padding-top: 20px;
+  }
+
+  .section-pd-top-md {
+    padding-top: 30px;
+  }
+
+  .section-pd-top-lg {
+    padding-top: 30px;
+  }
+
+  .section-mg-top-lg {
+    margin-top: -60px;
+  }
+
+  .section-pd-bottom-sm {
+    padding-bottom: 20px;
+  }
+
+ .section-pd-top {
+  padding-top: 30px;
+ } 
+
+  .section-pd-left {
+    padding-left: 30px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+
+  .black-col {
+    color: #0d233a;
+  }
+
+  .white-col {
+    color: #fff;
+  }
+
+  .fb-col {
+    background: #1877f2;
+  }
+
+  .insta-col {
+    background: #c32aa3;
+  }
+
+  .tiktok-col {
+    background: #010101;
+  }
+
+  .twi-col {
+    background: #1da1f2;
+  }
+
+  .link-col {
+    background: #0a66c2;
+  }
+  
+  .font-sm {
+    font-size: 20px;
+  }
+
+  .font-md {
+    font-size: 30px;
+  }
+
+  .font-lg {
+    font-size: 40px;
+  }
+
+  .pd-sm {
+    padding: 10px;
+  }
+
+  .pd-md {
+    padding: 20px;
+  }
+  
+  .pd-lg {
+    padding: 30px;
+  }

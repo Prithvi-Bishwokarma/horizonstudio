@@ -1,0 +1,185 @@
+
+/* header start */
+// #navbar {
+//     background-color: #0d233a;
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     z-index: 999;
+//     transition: top 0.4s;
+// }
+
+header {
+    padding: 1.5rem 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    .site-logo {
+        width: 8rem;
+    }
+}
+.header-nav {
+    ul li {
+        list-style: none;
+        display: inline-block;
+        padding-right: 3.5rem;
+    }
+    li {
+        position: relative;
+        a {
+            color: #fff;
+            font-weight: 100;
+            font-size: 18px;
+            transition: .4s ease-in-out;
+            position: relative;
+            &:hover {
+                color: #b6a466;
+                transition: .4s ease-in-out;
+            }
+            i {
+                font-size: 12px;
+                padding-left: 5px;
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 2px;
+                top: 100%;
+                left: 0;
+                margin-top: 10px;
+                background-color: #b6a466;
+                transform-origin: bottom right;
+                transition: transform 0.4s ease-out;
+            }
+            &:hover:after {
+                transform: scaleX(1);
+                background-color: #b6a466;
+                transform-origin: bottom left;
+            }
+        }
+    }
+    li > ul {
+            position: absolute;
+            background: #b6a466;
+            top: 100%;
+            left: 0%;
+            z-index: 99;
+            width: 188px;
+            padding: 0;
+            display: none;
+        li {
+            display: block;    
+            border-bottom: 1px #fff solid;
+                a {
+                    padding: 10px 20px;
+                    display: block;
+                    font-size: 14px;
+                    color: #fff;
+                    &:hover {
+                        color: #fff;
+                        &:after {
+                            height: auto;
+                        }
+                    &:hover:after {
+                        background: none;
+                        display: none;
+                    }        
+                    }
+                }
+            }
+        li:last-child {
+            border-bottom: none;
+        }    
+    }
+    li:hover > ul {
+        display: block;
+    }
+}
+.social-icon {
+    ul li {
+        display: inline-block;
+        a {
+            width: 45px;
+            height: 45px;
+            display: inline-grid;
+            color: #fff;
+            border-radius: 100%;
+            text-align: center;
+            align-items: center;
+            margin-left: 30px;
+        }
+    }
+    .call-button {
+        padding-left: 2rem;
+    }
+}
+.hamburger {
+    position: relative;
+    display: block;
+    width: 45px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+.hamburger .bar, .hamburger:after, .hamburger:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #b6a466;
+    margin: 6px 0;
+    transition: 0.5s;
+    z-index: 99;
+    border-radius: 5px;
+    position: relative;
+}
+.hamburger.is-active:before {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.hamburger.is-active:after {
+    transform: rotate(45deg) translate(-9px, -8px);
+}
+.hamburger.is-active .bar {
+    opacity: 0;
+}
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100%;
+    display: block;
+    z-index: 98;
+    background-color: #0d233a;
+    padding-top: 80px;
+    transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+    left: 0;
+}
+
+.mobile-nav li {
+    display: block;
+}
+
+.mobile-nav a {
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.mobile-nav a:hover {
+    background-color: #b6a466;
+}
+
+/* header end */
+
